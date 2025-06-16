@@ -22,7 +22,7 @@ data = spark.read.csv(‘datafile.scv’, header=True, inferSchema=True)
 ```
 ### 4. Features & label. `VectorAssembler` combines all feature columns into a single vector column required by MLlib
 ```
-feature_cols = [col for col in data.columns if col != "label"]    # feature_cols = [‘’v1”, “v2”, “v3”, “v4”, “v5”]
+feature_cols = [col for col in data.columns if col != "label"]
 assembler = VectorAssembler(inputCols=feature_cols, outputCol="features")
 ```
 ### 5. Transform data before splitting
