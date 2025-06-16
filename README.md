@@ -64,7 +64,7 @@ evaluator_rmse = RegressionEvaluator(
 rmse = evaluator_rmse.evaluate(predictions)
 print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
 ```
-## 12. Stop PySpark
+### 12. Stop PySpark
 ```
 spark.stop()
 ```
