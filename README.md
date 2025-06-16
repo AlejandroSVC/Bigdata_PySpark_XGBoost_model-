@@ -1,6 +1,6 @@
 # Bigdata analysis using PySpark: XGBoost_model
 
-![Banner](docs/assets/images/movie_banner.png)
+![Banner](docs/assets/images/banner_bigdata.jpg)
 
 ### Python code:
 
